@@ -2,7 +2,7 @@ package com.moon.moonhome;
 
 import android.os.Bundle;
 
-import com.moon.msupport.ui.BaseActivity;
+import com.moon.msupport.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
+import android.text.TextUtils;
 
 import com.moon.msupport.m;
 
@@ -48,6 +49,13 @@ public class SystemUtil {
     }
 
     /**
+     * 获取软件包名
+     */
+    public static String getPackageName() {
+        return m.app().getPackageName();
+    }
+
+    /**
      * 获取进程名字
      */
     public static String getProcessName() {
@@ -64,6 +72,13 @@ public class SystemUtil {
             }
         }
         return null;
+    }
+
+    /**
+     * 当前进程是否是app进程
+     */
+    public static boolean isRightProcess() {
+       return TextUtils.equals(getProcessName(), getPackageName());
     }
 
     /**

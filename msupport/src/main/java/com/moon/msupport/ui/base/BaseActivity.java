@@ -1,4 +1,4 @@
-package com.moon.msupport.ui;
+package com.moon.msupport.ui.base;
 
 import android.app.Activity;
 import android.os.Bundle;

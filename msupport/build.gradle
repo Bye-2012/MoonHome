@@ -31,8 +31,10 @@ dependencies {
     api 'com.android.support:design:27.1.1'
     api 'com.android.support:support-v4:27.1.1'
     // retrofit
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    api 'com.squareup.retrofit2:retrofit:2.3.0'
+    api 'com.squareup.retrofit2:converter-gson:2.2.0'
     // dex
-    compile 'com.android.support:multidex:1.0.3'
+    api 'com.android.support:multidex:1.0.3'
+    // okgo
+    api 'com.lzy.net:okgo:3.0.4'
 }

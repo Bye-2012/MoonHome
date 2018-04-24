@@ -1,19 +1,14 @@
 package com.moon.moonhome;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.moon.msupport.ui.base.BaseActivity;
-
-public class MainActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-    }
 
-    @Override
-    protected int getContentResId() {
-        return R.layout.activity_content_main;
     }
 }

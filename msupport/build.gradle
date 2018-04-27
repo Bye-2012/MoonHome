@@ -42,4 +42,8 @@ dependencies {
     implementation 'com.orhanobut:logger:2.1.1'
     // utils
     api 'com.blankj:utilcode:1.12.3'
+    // permission
+    api 'com.yanzhenjie:permission:2.0.0-rc4'
+    // gson
+    api 'com.google.code.gson:gson:2.8.2'
 }

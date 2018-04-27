@@ -2,7 +2,7 @@ package com.moon.moonhome;
 
 import android.support.multidex.MultiDexApplication;
 
-import com.moon.msupport.m;
+import com.moon.msupport.app.m;
 
 /**
  * Created by Moon on 2017/3/16.
@@ -15,6 +15,10 @@ public class MyApplication extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
 
-        m.init(this);
+        m.init(this)
+                .withHost("http://test-edu-api.hejun.com")
+                .config();
+
+
     }
 }
